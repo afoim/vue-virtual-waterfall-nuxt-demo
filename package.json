@@ -1,0 +1,27 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "fmt": "prettier --write .",
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@lhlyu/vue-virtual-waterfall": "1.0.6",
+        "@vueuse/core": "^11.0.3",
+        "@vueuse/nuxt": "^11.0.3"
+    },
+    "devDependencies": {
+        "@nuxt/devtools": "^1.4.1",
+        "nuxt": "^3.13.0",
+        "prettier": "^3.3.3",
+        "prettier-plugin-rational-order": "^1.0.3",
+        "sass": "^1.78.0",
+        "vue": "^3.5.0",
+        "vue-router": "^4.4.3"
+    }
+}
